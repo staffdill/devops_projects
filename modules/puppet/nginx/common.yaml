@@ -1,0 +1,10 @@
+#this is module specific Hiera data that allows you to set specific default values that you can overwrite in nodes.
+#this file would automatiacally be created if you created this nginx module with the PDK. However it would be empty. All configurations are done manually.
+#the file path for this file would be /etc/puppetlabs/code/environments/<environment>/nginx/data
+---
+nginx::package_ensure: 'present'
+nginx::config_ensure: 'present'
+nginx::service_ensure: 'running'
+nginx::service_enable: true
+nginx::service_hasrestart: true
+nginx::vhosts_ensure: 'present'
