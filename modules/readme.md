@@ -1,0 +1,3 @@
+#the purpose of this module is to allow you to provision either a debain based or red hat based linux Vm and automatically assign it the nginx package.
+#the configuration in this module allows you to chose either system and specific OS based configurations will automatically apply based on OS version 
+#Specific site settings will also be applied based on host name, the assumption is that these files are created with the PDK on your master server.
