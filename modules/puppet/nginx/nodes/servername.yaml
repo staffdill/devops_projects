@@ -1,0 +1,6 @@
+#this is node specific data that can be parsed through from hiera
+
+nginx::vhosts_port: '80'
+nginx::vhosts_root: '/var/www'
+nginx::vhosts_name: 'puppet-project.com'
+nginx::vhosts_ensure: 'present'
