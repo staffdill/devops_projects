@@ -1,0 +1,12 @@
+# hosts-dev
+
+[webservers]
+app1 ansible_host=ec2-3-213-235-69 #these will need to be updated to reflect ec2 IP's
+app2 ansible_host=ec2-3-208-48-59 #these will need to be updated to reflect ec2 IP's
+
+[loadbalancers]
+lb1 ansible_host=ec2-34-202-139-134 #these will need to be updated to reflect ec2 IP's
+
+
+[local]
+control ansible_connection=local
